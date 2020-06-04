@@ -1,6 +1,8 @@
 package VOorTO;
 
-public class StudentTOorVOClass
+import java.io.Serializable;
+
+public class StudentTOorVOClass implements Serializable
 {
 	private int rollNo;
 	private String name;
